@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ascii-art-web</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  
+    <form action="/window" method="post">
+        <label for ="text"></label>
+            <textarea id ="text" name ="first" placeholder="Enter the text" ></textarea>
+            <input type = "submit"><br>
+            <input type = "radio" name = "second"value = "shadow"> shadow <br>
+            <input type = "radio" name = "second"value = "standard" checked > standard<br>
+            <input type = "radio" name = "second"value = "thinkertoy"> thinkertoy<br>
+        </form>
+ <pre>{{.}}</pre>
+</body>
+</html>
